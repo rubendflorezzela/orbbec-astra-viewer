@@ -1,0 +1,3 @@
+pyorbbecsdk-community==1.4.2
+opencv-python
+numpy

@@ -257,7 +257,7 @@ orbbec-astra-viewer/
 
 ## Author
 
-**Ruben D. Florez-Zela**  
+**Ruben Dario Florez-Zela**  
 RENACYT Level V Researcher  
 M.Sc. Candidate in Electronic Engineering | UNSA  
 Computer Vision · RGB-D Cameras · Embedded AI · Intelligent Systems

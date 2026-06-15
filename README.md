@@ -1,6 +1,6 @@
 <div align="center">
 
-# Orbbec Astra Stereo S U3 — Multi-Stream Viewer
+# Orbbec Astra Stereo S U3 | Multi-Stream Viewer
 
 **Real-time RGB · IR · Depth viewer with interactive controls and live metrics**
 

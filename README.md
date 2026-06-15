@@ -176,9 +176,9 @@ When the program starts, two windows are displayed:
 The depth stream uses an **inverted JET** color map:
 
 ```text
-Red / Orange  →  Near objects
-Cyan / Blue   →  Far objects
-Black         →  Invalid depth / outside range
+🔴 Red / Orange  →  Near objects
+🔵 Cyan / Blue   →  Far objects
+⬛ Black         →  Invalid depth / outside range
 ```
 
 **AUTO mode** adapts the visible depth range using a rolling p2–p98 percentile window over recent valid depth samples.  

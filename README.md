@@ -81,8 +81,11 @@ Although this project was tested with the **Orbbec Astra Stereo S U3**, the gene
 | OpenCV | 4.x | `opencv-python` |
 | NumPy | 1.x | Numerical array processing |
 
-> ⚠️ **Why `pyorbbecsdk-community` instead of `pyorbbecsdk`?**  
-> In some Windows + Python 3.10 setups, the official `pyorbbecsdk` package may install an incompatible wheel, which can produce `ModuleNotFoundError` at runtime. `pyorbbecsdk-community` provides a working Windows wheel for this configuration.
+> ⚠️ **Why `pyorbbecsdk-community` and not `pyorbbecsdk`?**  
+> The official `pyorbbecsdk` on PyPI **does not ship a `cp310-win_amd64` wheel**.  
+> On Windows + Python 3.10 it silently installs a macOS `.so` file, causing  
+> `ModuleNotFoundError` at runtime.  
+> `pyorbbecsdk-community` is a maintained fork with the correct Windows wheel.
 
 ---
 

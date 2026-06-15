@@ -120,7 +120,7 @@ pip install opencv-python numpy
 > ⚠️ **Do not use Zadig / WinUSB for this camera.**  
 > The Astra Stereo S U3 uses the OpenNI protocol and requires the Orbbec driver. Installing WinUSB may cause errors such as `Open device by path failed, ret-1`.
 
-1. Download **OrbbecSDK v1.x** from the official Orbbec SDK releases.
+1. Download **OrbbecSDK v1.x** from the official Orbbec SDK releases ([github.com/orbbec/OrbbecSDK/releases](https://github.com/orbbec/OrbbecSDK/releases)).
 2. Extract the ZIP file and open the `driver/` folder.
 3. Right-click `obsensor_metadata_win10.inf` → **Install**.  
    Alternatively, run `ObsensorCamUsbDriver.exe` as Administrator if it is included.

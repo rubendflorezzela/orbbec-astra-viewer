@@ -26,8 +26,13 @@ Although this project was tested with the **Orbbec Astra Stereo S U3**, the gene
 
 ## Preview
 
-> 📸 Place a screenshot or GIF here.  
-> Press **`[s]`** while the viewer is running to save `rgb_YYYYMMDD_HHMMSS.png`, `ir_*` and `depth_*` frames.
+<p align="center">
+  <img src="assets/orbbec_viewer_demo.gif" alt="Orbbec Astra Stereo S U3 viewer demo" width="850">
+</p>
+
+<p align="center">
+  <em>Demo of the multi-stream viewer showing RGB, IR, depth and live metrics in real time.</em>
+</p>
 
 ---
 
